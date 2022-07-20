@@ -4,9 +4,6 @@ body{
     font-family: 'Poppins',sans-serif;
    
 }
-.main{
-    margin: 33px;
-}
 
 .container{
     max-width: 1320px;
@@ -128,7 +125,6 @@ Fotter-menu style
 --------------*/
 
 .Fotter-menu{
-    width: 1600px;
     height: 464px;
     background-color: #161616;
 }
@@ -143,5 +139,16 @@ Fotter-menu style
 .Socile-info{
     color: #B9B9B9;
     display: flex;
+    
+}
+/*-------------
+Media Queries
+--------------*/
+/*----Mobiel---*/
+
+@media only screen and(max-width:688px){
+ .match-info{
+    grid-template-columns: repeat(1,1fr);
+ }
     
 }
