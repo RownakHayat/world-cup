@@ -147,8 +147,13 @@ Media Queries
 /*----Mobiel---*/
 
 @media only screen and(max-width:688px){
+.container{
+    width:100%;
+}
  .match-info{
     grid-template-columns: repeat(1,1fr);
  }
-    
+.blogs-list{
+    grid-template-columns: repeat(1,1fr);
+} 
 }
