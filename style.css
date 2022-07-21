@@ -98,8 +98,6 @@ Blogs- Styles
 }
 .blog .blog-banner img{
     width: 100%;
-    
-
 }
 .blog{
     background-color: #E8E8E8;
@@ -119,8 +117,14 @@ Blogs- Styles
 .fa-icon{
     color:#757070;
 }
-.vieew-btn{
-    display: none;
+.view{
+   text-align: center;
+   display: none;
+}
+.view-btn{
+    color: white;
+    background-color: #DD0000;
+    border-radius: 8px;
     
 }
 /*-----------
@@ -139,17 +143,19 @@ Fotter-menu style
     color: #B9B9B9;
 }
 .Socile-info{
+    justify-content: space-evenly;
     color: #B9B9B9;
     display: flex;
     text-align: center;
-    justify-content: space-evenly;
     max-width: 700px;
     margin: 0 auto;
 }
 /*-------------
 Media Queries
 --------------*/
+
 /*----Mobiel---*/
+
 
 @media only screen and (max-width:575px){
     .container{
@@ -192,14 +198,14 @@ Media Queries
         border: 1px solid #ddd;
         font-size: 18px;
     }
-    .vieew-btn{
+    .view-btn{
         display: none;
     }
 }
 /*-----------
     Tab-Devices
 -------------*/
-@media screen and (min-width: 576px) and (max-width:992px) {
+@media screen and (min-width: 688px) and (max-width:992px) {
     .container{
         width:100%;
     }
@@ -259,10 +265,14 @@ Media Queries
         border: 1px solid #ddd;
         font-size: 18px;
     }
-    .vieew-btn{
-        background-color:#DD0000 ;
-        color:#FFFFFF;
+    .view{
         text-align: center;
+        display: block;
+     }
+    .view-btn{
+        color: white;
+        background-color: #DD0000;
+        border-radius: 8px;
         
     }
 }
