@@ -1,0 +1,32 @@
+.Flags-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+}
+.Flags .Flag-banner img{
+    display: flex;
+    width: 100%;
+   
+
+}
+.Flag{
+    background-color: #E8E8E8;
+    box-shadow:#161616 ;
+    border-radius: 8px;
+}
+
+.Flag-details{
+    font-size: 18px;
+}
+@media screen and (min-width: 576px) and (max-width:992px) {
+    .container{
+        width:100%;
+    }
+    .banner{
+        height: 398px;
+    }
+    .banner-image img {
+        width: 323px;
+        height: 340px;
+    }
+}
